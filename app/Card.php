@@ -8,7 +8,7 @@ class Card extends Model
 {
     public function notes()
 	{
-	return $this->hasMany(Note::class);
+	//return $this->hasMany(Note::class);
 	}
 }
 /* kush */
